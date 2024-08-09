@@ -6,7 +6,7 @@ Implementation based on the paper "An unsupervised learning method with convolut
 1. **Step 1**: Apply linear interpolation to the point trajectories. Divide the space into a grid. Apply color only to the grids containing points of the interpolated trajectory. Process is shown in the image below.
 ![Trajectory to image](images/traj2img.png)
 2. **Step 2**: Train autoencoder model. Architecture used is shown in the image below.
-![Architecture](images/architecture.png)  
+![Architecture](images/model.png)  
 3. **Step 3**: Apply K-means algorithm to create the groups.
 
 ### Results
